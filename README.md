@@ -1,28 +1,36 @@
-🛡️ SentinEL: Ultima Intelligence Engine
-Next-Gen Phishing Detection using Explainable AI (XAI)
-Architects: Mourya R. Udumula & Jeet Upadhyaya | Institution: Indrashil University
+# 🛡️ SentinEL: Ultima Intelligence Engine
 
-🚀 Project Overview
-SentinEL Ultima is a Hybrid Threat Intelligence Engine designed to detect sophisticated phishing attacks that bypass traditional blacklists. It combines a high-speed Random Forest classifier with real-time Forensic Analysis (WHOIS, DNS, SSL) to deliver verdicts with <150ms latency.
+### Next-Gen Phishing Detection using Explainable AI (XAI)
+**Architect:** Mourya R. Udumula | **Ops Lead:** Jeet Upadhyaya
+**Institution:** Indrashil University
 
-The system features Active Learning, allowing security analysts to flag false positives and retrain the decision boundary in real-time (Session Scope).
+---
 
-🛠️ Technical Stack
-ML Core: Scikit-Learn (Random Forest, Pipelines), Pandas
-Forensics: python-whois, dnspython, SSL Socket Inspection
-Concurrency: concurrent.futures for high-velocity batch triage
-Interface: Streamlit (Dynamic Dashboard)
-⚡ Key Capabilities
-Hybrid Engine: Combines Allowlisting (O(1) lookup) with ML Heuristics.
-Explainable AI (XAI): Provides human-readable reasons for every verdict (e.g., "High Entropy", "Expired SSL").
-Resilience: Self-healing CSV parsing logic for handling dirty IOC feeds.
-Adversarial Defense: Detects DGA (Domain Generation Algorithms) via Shannon Entropy analysis.
-🔧 Installation & Usage
-# Clone the repository
-git clone https://github.com/CassianLee14/SentinEL-Adversarial-ML.git
+## 🚀 Project Overview
+ Technical Stack
+*   **Intelligence Layer:** Scikit-Learn (Random Forest Pipelines), Feature Scaling (Standardization).
+*   SentinEL Ultima is a **Hybrid Threat Intelligence Engine** designed to detect sophisticated phishing attacks that bypass traditional blacklists. It combines a high-speed **Random Forest** classifier with real-time **Forensic Analysis** (WHOIS, DNS, SSL) to deliver verdicts with**Forensic Modules:** `python-whois`, `dnspython`, Socket-level SSL/TLS Handshake inspection.
+ <150ms latency.
+
+The system features **Active Learning**, allowing security analysts to flag false positives and ret*   **Computational Logic:** Optimized Shannon Entropy algorithms to quantify string randomness.
+*   **Interface:** Streamlit-rain the decision boundary in real-time (Session Scope).
+
+## 🛠️ Technical Stack
+*   **MLbased Dashboard for real-time local XAI Attribution.
+
+## ⚡ Key Capabilities
+1.  **Hybrid Engine:** Seamlessly integrates Allowlisting (O(1) lookup) with ML Heuristics.
+2.  **Explainable AI (XAI):** Human-readable forensic justifications (e.g., "High Entropy", "Expired SSL").
+3.  **Adversarial Resilience:** Detects DGA (Domain Generation Algorithms) via algorithmic entropy analysis.
+4.  **Active Learning Feedback:** Real-time analyst-override mechanism (Session Scope) to refine decision boundaries.
+
+## 🔧 Installation & Usage
+```bash
+# Clone the intelligence engine
+git clone https://github.com/Maze-6/SentinEL-Adversarial-ML.git
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Launch the Dashboard
+# Launch the engine
 streamlit run app.py
