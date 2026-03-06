@@ -1,0 +1,26 @@
+venv/
+venv_*/
+.venv/
+venv_sentinel/
+venv_vaultzero/
+__pycache__/
+*.py[cod]
+.env
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Model artefacts — generated at runtime, must not be committed
+data/sentinel_ultima.pkl
+data/model_checksum.sha256
+data/*.pkl
+*.pkl
+
+# Large generated dataset files
+data/phishing_site_urls.csv
+
+# Debug / scratch scripts (not part of the research codebase)
+test2.py
+test3.py
+test_extract.py

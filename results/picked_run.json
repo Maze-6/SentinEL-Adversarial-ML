@@ -1,0 +1,13 @@
+{
+  "n_total": 8,
+  "selection": "8 / 11,000 URLs  (hand-picked rows: 13, 93, 44, 210, 7, 58, 66, 51)",
+  "n_phishing": 3,
+  "n_suspicious": 4,
+  "n_legitimate": 1,
+  "mean_prob": 0.5109,
+  "mode": "offline",
+  "adversarial": false,
+  "elapsed_s": 0.13,
+  "urls_per_sec": 61.4,
+  "accuracy": 0.625
+}

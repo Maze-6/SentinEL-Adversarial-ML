@@ -1,0 +1,8 @@
+{
+  "clean_accuracy": 0.7955,
+  "attacked_accuracy": 0.7564,
+  "degradation_pp": 3.91,
+  "n_test": 2200,
+  "attack_rate": 0.9932,
+  "keywords_neutralised": 150
+}
